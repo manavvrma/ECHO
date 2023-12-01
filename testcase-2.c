@@ -1,6 +1,6 @@
 ECHO main()
 {
-	LENGTHY a = 5;
+	LENGTHY a = 5; //error as 5 is data type number
 	NUMBER b = 10;
 	ECHO c;
 
