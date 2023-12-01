@@ -39,10 +39,10 @@ Make sure `flex` and `bison` are downloaded and added to the system's path varia
 
 ```bash
 # Generate lexer
-flex ECHO-SemanticScanner.l
+flex ECHO-Scanner.l
 
 # Generate parser
-bison -dy ECHO-SemanticParser.y
+bison -dy ECHO-Parser.y
 
 # Compile the code
 gcc y.tab.c -w -o a
